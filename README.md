@@ -7,7 +7,7 @@ The idea behind building this was to explore how NLP and machine learning can be
 Live App:
 https://fakenewsdetection-9ix5r3mbvwd9vakvdh6j3f.streamlit.app/
 
-What the app does
+## What the app does
 
 Takes news text as input
 
@@ -21,7 +21,7 @@ Shows the result in a chatbot-style response
 
 The goal was to make the interaction simple — more like asking a question than using a technical tool.
 
-Tech used
+## Tech used
 
 I kept the stack lightweight so it’s easy to run and deploy:
 
@@ -35,7 +35,7 @@ NLP preprocessing (NLTK / basic text cleaning)
 
 The model is trained using standard text classification techniques like TF-IDF with a supervised classifier.
 
-How it works (high level)
+## How it works (high level)
 
 User enters a news headline or paragraph
 
@@ -60,7 +60,7 @@ If you want to test it locally:
 pip install -r requirements.txt
 streamlit run app.py
 
-Example
+## Example
 
 Input:
 “Scientists confirm humans can live on Mars by 2030.”
@@ -68,7 +68,7 @@ Input:
 Output:
 Prediction → Fake News
 
-Limitations
+## Limitations
 
 This is a prototype, so it has some obvious limitations:
 
@@ -80,7 +80,7 @@ Can struggle with satire or opinion content
 
 Not trained on real-time news
 
-Why I built this
+## Why I built this
 
 Mainly to experiment with:
 
@@ -93,4 +93,5 @@ Streamlit deployment
 Building a simple AI chatbot interface
 
 It was a good way to combine ML + UI into one small project.
+
 
