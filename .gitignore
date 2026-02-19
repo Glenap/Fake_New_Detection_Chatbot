@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model weights (large files)
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# OS
+.DS_Store
+Thumbs.db
